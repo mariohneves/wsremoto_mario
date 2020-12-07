@@ -1,0 +1,54 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String cliente = JOptionPane.showInputDialog("Cliente");
+		byte diaria = "80";
+		byte diarias = Byte.parseByte(JOptionPane.showInputDialog("Quantidade de Diárias"));
+		if (diarias<15) {
+			System.out.println(diarias + "diarias*8");
+		}else if (diarias==15) {
+			System.out.println(diarias + "diarias*6");
+		}else if (diarias>15) {
+			System.out.println(diariais + "diarias*5.5");
+		}
+		
+		float conta = diaria*diarias;
+		
+		
+		
+		
+		
+		
+
+				
+				
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

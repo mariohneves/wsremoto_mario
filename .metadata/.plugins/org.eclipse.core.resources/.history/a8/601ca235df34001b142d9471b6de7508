@@ -1,0 +1,90 @@
+package br.com.elevador.modelo;
+
+import javax.swing.JOptionPane;
+
+public class elevador {
+
+	private String nome;
+	private short andarMaximo;
+	private short andarMinimo;
+	private byte capacidadePessoas;
+	private byte qtdeAtual;
+	private short andarAtual;
+	
+	
+	public String exibirNome() {
+		return nome;
+	}
+		
+	public byte exibirAndarAtual() {	
+		return andarAtual;
+		}
+		
+	public byte exibirQtdeAtual() {
+		return qtdeAtual;
+	}
+	
+	
+	public void entrar(byte param) {
+		if (qtdeAtual+param < capacidadePessoas) {
+			 (qtdeAtual + param);
+		}
+	}
+	
+	public void sair(byte param) {
+		if (qtdeAtual - param >0) {
+			(qtdeAtual - param);
+		}
+	}
+	
+	
+	
+	
+	
+	public void subir() {
+		if (andarAtual!=andarMinimo || andarAtual!=andarMaximo) {
+			andarAtual++; 
+		}
+	}
+	 
+	public void descer() {
+		if (andarAtual!=andarMinimo || andarAtual!=andarMaximo) {
+			andarAtual--;
+				}
+	}
+	
+	public void pNome(String param) {
+		nome = param.toUpperCase();
+		}
+	public void pAndarMax(short param) {
+		if (param>0) {
+		andarMaximo = param;
+		}
+	}
+	public void pAndarMin(short param) {
+		andarMinimo = param;
+	}
+	
+	public void pCapacidade(byte param) {
+		if (param>0) {
+			capacidadePessoas = param;
+		}
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,45 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class Slide77Exercicio4 {
+
+	public static void main(String[] args) {
+		// 
+		
+		short cont = 0;
+		short idade = 0;
+		String nome = "0";
+		
+		do {
+			nome = JOptionPane.showInputDialog("Digite seu nome:");
+			idade = Short.parseShort(JOptionPane.showInputDialog("Digite sua idade"));
+			
+		
+		} while(JOptionPane.showConfirmDialog(
+			null, 
+			"Deseja Continuar?",
+			"Pergunta",
+			JOptionPane.YES_NO_OPTION)==0); 
+		
+		while (idade < 18) {
+			cont++;
+			System.out.println("A quantidade de pessoas menores de idade é : " + cont);
+			
+		
+		}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}

@@ -1,0 +1,54 @@
+package br.universidade.implementacao;
+
+import javax.swing.JOptionPane;
+
+import br.com.universidadexyz.beans.Aluno;
+import br.com.universidadexyz.beans.Curso;
+import br.com.universidadexyz.beans.Endereco;
+import br.com.universidadexyz.beans.Professor;
+import br.com.universidadexyz.beans.Turma;
+
+public class ImplementarTurma {
+
+	public static void main(String[] args) {
+		
+		Turma t = new Turma(
+				Integer.parseInt(JOptionPane.showConfirmDialog("Numero")),
+				new Aluno (
+						10,
+						"Mario",
+						"40719678897"					
+						),
+				new Professor(
+						"Humberto",
+                		"MS",
+                		10,
+                		new Endereco(
+        						"Rua Lisboa",
+        						"104",
+        						"ap 12",
+        						"Cerqueira Cesar",
+        						"SP",
+        						"SP",
+        						"05413-000"
+						),
+				new Curso(
+						"Gama",
+        				2000,
+        				120,
+        				"GA",
+        				10,
+        				3
+        				),
+				
+				
+						
+						
+						
+
+                
+                
+				
+	}
+
+}

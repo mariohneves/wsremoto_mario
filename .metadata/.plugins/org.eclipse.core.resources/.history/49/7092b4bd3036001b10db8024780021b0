@@ -1,0 +1,41 @@
+package br.com.lojaabc.implementacao;
+
+import br.com.lojabac.util.Magic;
+
+public class ImplementaVendas {
+
+	public static void main(String[] args) {
+		
+		Venda venda = new Venda(
+				 Magic.i('Nota Fiscal"),   
+				 new Produto(
+						 Magic.i("Código"),
+						 Magic.s("Descrição"),
+						 Magic.f("Valor Compra"),
+						 Magif.f("Valor Venda"),
+						 Magic.i("Qtde"),
+						 new Fabricante(
+								 Magic.s("CNPJ"),
+								 Magic.s("Razão Social"),
+								 Magic.s("Fone")
+								 )
+						 ),
+			     new Cliente(
+			    		 Magic.i("Codigo do Cliente"),
+			    		 Magic.s("Nome do cliente"),
+			    		 Magic.s("Email"),
+			    		 
+			    		 ),
+			     Magic.i("Qtde"),
+			     Mafic.f("Total")
+						
+				
+				
+				);
+		
+		
+		System.out.println(venda.toString());
+		
+	}
+
+}

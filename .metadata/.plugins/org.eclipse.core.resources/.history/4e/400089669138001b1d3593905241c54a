@@ -1,0 +1,41 @@
+package br.com.excecoes.implementacao;
+
+public class Testeexcecao {
+
+	public static void main(String[] args) {
+
+		try {
+			int numero = Integer.parseInt("A");
+			System.out.println("Número : " + numero);
+		}catch(Exception e) {
+			System.out.println("Deu ruim");
+				
+			}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

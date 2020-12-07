@@ -1,0 +1,49 @@
+package br.com.lojaabc.implementacao;
+
+import br.com.lojaabc.beans.Cliente;
+import br.com.lojaabc.beans.PessoaFisica;
+import br.com.lojaabc.beans.PessoaJuridica;
+import br.com.lojabac.util.Magic;
+
+public class ImplementarCliente2 {
+	
+	public static void main(String[] args) {
+	
+	char opcao = Magic.s("Digite F para pessoa Fisica").charAt(0);
+	Cliente cliente = null;
+				
+	if (opcao=='F') {
+		cliente = new PessoaFisica();
+	}else {
+		cliente = new PessoaJuridica();
+	}
+	
+	
+	System.out.println(cliente.toString());
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

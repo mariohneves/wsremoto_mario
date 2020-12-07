@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="java.text.DecimalFormat"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="br.com.universidadexyz.beans.Professor"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="br.com.lojaabc.beans.Venda"/>
+    <fullyQualifiedTypeName name="br.com.lojaabc.beans.Fabricante"/>
+    <fullyQualifiedTypeName name="br.com.lojaabc.beans.Cliente"/>
+    <fullyQualifiedTypeName name="br.com.lojabac.util.Magic"/>
+    <fullyQualifiedTypeName name="br.com.lojaabc.beans.PessoaFisica"/>
+    <fullyQualifiedTypeName name="br.com.lojaabc.beans.PessoaJuridica"/>
+    <fullyQualifiedTypeName name="br.com.bankofoz.magic.Magic"/>
+    <fullyQualifiedTypeName name="br.com.bankofoz.modelo.Poupanca"/>
+    <fullyQualifiedTypeName name="tratarexcecao.Minhaexcecao"/>
+</qualifiedTypeNameHistroy>

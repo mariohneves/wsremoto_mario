@@ -1,0 +1,66 @@
+package variaveis;
+
+import javax.swing.JOptionPane;
+
+public class TiposDados {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// dados númericos: tipo de dado que PODE ser utilizado em uma expressão aritimetica, ou quando for um dado sensivel para busca (grau de importância)
+		/* No Java representado pelo :
+		 * 		int -> se número inteiro
+		 * 		double -> números reais (casa decimal é importante)
+		 * 		Float -> Casas decimais com menor percisão que a double
+		 * CEP no contexto correios
+		 * CPF no contexto receita federal (sensibilidade e necessidade critica do dado)
+		 * 
+		 * 
+		 * Dados alfa-númericos: não será utilizado para cálculos
+		 * Em java é representado pela String (nesse caso necessário criar entre "")
+		 * CEP = no contexto DP do Itau
+		 * CPF no contexto cadastro faculdade
+		 * 
+		 * 
+		 * Swing = pacote que contém recursos para telas em java
+		 * 
+		 * PARSE: processo de conversão da variavel
+		 * 
+		 * Tipos númericos = tipos primitivos, fazem parte da linguagem, fazendo com que seja necessário utilizar uma class para acessar um método
+		 * chamo a class para acessar o método, Integer, Double e Float (Classes criadas para converter os campos primitivos)
+		 * 
+		 */
+		
+		
+		//criar variavel ==> <tipo de dado> <nome da variavel> = <valor>
+		String nome = JOptionPane.showInputDialog("Digite o nome:");
+		int idade = Integer.parseInt(JOptionPane.showInputDialog("Digite a idade:"));
+		double altura = Double.parseDouble(JOptionPane.showInputDialog("Digite sua altura:"));
+		double peso = Double.parseDouble(JOptionPane.showInputDialog("Digite seu peso:"));
+		System.out.println("Nome  : " + nome);
+		System.out.println("Idade : " + idade);
+		System.out.println("Altura: " + altura);
+		System.out.println("Peso  : " + peso);
+		
+		double imc = peso / (altura * altura);
+		System.out.println("IMC     " + imc);
+		
+		
+				
+		
+				
+		
+		
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

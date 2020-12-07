@@ -1,0 +1,54 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioDecisaoComposta {
+
+	public static void main(String[] args) {
+		// 
+		/*
+		 * 
+		 */
+
+		String produto = JOptionPane.showInputDialog("Produto").toUpperCase();
+	
+		short quantidade = short.parseShort(JOptionPane.showInputDialog("Quantidade"));
+		float preço= float.parseFloat(JOptinPane.showInputDialog("Valor Unitário"));
+		
+		
+		if (quantidade=>10 || quantidade<=20) {
+			System.out.println(quantidade + " Estoque Normal");
+		}else if (quantidade>1000) {
+			System.out.println(quantidade + " Estoque Alto");
+		} else {
+			System.out.println(quantidade + " Estoque Baixo");
+		}
+		
+		
+			
+			/* && = and
+			 * || = or
+			 * != not equal
+			 */
+		
+		System.out.println("Sua média foi : " + media);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

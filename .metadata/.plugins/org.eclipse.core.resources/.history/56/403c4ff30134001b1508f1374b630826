@@ -1,0 +1,46 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioWhile {
+
+	public static void main(String[] args) {
+		// 
+		/*
+		 * Sua aplicação ira pedir: Ano, mês e dia, em variavéis inteiras separadamente.
+		 * 
+		 * Ano = deve ser maior que 1900
+		 * Dia: entre 1 e 31
+		 * mês : entre 1 e 12
+		 * 
+		 * 
+		 * No final, exibe a data dia/mês/ano
+		 */
+
+		short ano = Short.parseShort(JOptionPane.showInputDialog("Ano"));
+		while (ano<=1900) {
+			System.out.println("Ano precisa ser maior que 1900");
+		}
+		
+		byte mes = Byte.parseByte(JOptionPane.showInputDialog("Mês"));
+		while (mes>12 && mes==0) {
+			System.out.println("Mês deve estar entre 1 e 12");
+		}
+		
+		byte dia = Byte.parseByte(JOptionPane.showInputDialog("Dia"));
+		while (dia>31 && dia==0) {
+			System.out.println("Os dias devem estar entre 1 e 31");
+		} while (mes==2) {
+			System.out.println("No mês dias os dias vão até 29");
+		}
+		while (mes==4 || mes == 6 || mes == 6 || mes == 9 || mes == 11) {
+			System.out.println("Meses que possuem 30 dias");
+		}
+		
+		System.out.println("Dia");
+		System.out.println("/mes");
+		System.out.println("/Ano");
+		
+	}
+
+}

@@ -1,0 +1,42 @@
+package br.com.elevador.testes;
+
+import br.com.elevador.modelo.elevador;
+
+public class TesteElevador {
+
+	public static void main(String[] args) {
+		
+		elevador objeto = new elevador();
+		
+		
+	objeto.definirValores("Torre1",(short) 10, (short) -3, (byte) 20);
+	
+	
+	
+	
+	System.out.println(objeto.exibirDados());
+	objeto.entrar(5);
+	objeto.subir(10);
+	objeto.descer(5);
+	System.out.println(objeto.exibirDados());	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}
