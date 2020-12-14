@@ -4,7 +4,6 @@
     <fullyQualifiedTypeName name="java.text.DecimalFormat"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="br.com.universidadexyz.beans.Professor"/>
-    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="br.com.lojaabc.beans.Venda"/>
     <fullyQualifiedTypeName name="br.com.lojaabc.beans.Fabricante"/>
@@ -15,4 +14,13 @@
     <fullyQualifiedTypeName name="br.com.bankofoz.magic.Magic"/>
     <fullyQualifiedTypeName name="br.com.bankofoz.modelo.Poupanca"/>
     <fullyQualifiedTypeName name="tratarexcecao.Minhaexcecao"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="br.com.projetofinal.beans.Artista"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
 </qualifiedTypeNameHistroy>

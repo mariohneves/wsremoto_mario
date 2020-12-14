@@ -1,7 +1,0 @@
-package br.com.bankofoz.implementar;
-
-public class ImplementarConta {
-	
-	public static void main(String[] args) {
-
-}
