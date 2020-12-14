@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Gama Academy </title>
+
+
+    <link rel="stylesheet" href="../css/estilos.css">
+
+</head>
+
+<body>
+
+    <table border="0" width="100%" class="menu">
+        <tr>
+            <td align=center> <a href="../index/index.html"></a> <img src="..\imagem\logo.png" class="logo"> </td>
+            <td>QUEM SOMOS</td>
+            <td>CURSO ONLINE</td>
+            <td>GAMA EXPERIENCE</td>
+            <td>PARA EMPRESAS</td>
+            <td>CONTATO</td>
+            <td>CONTEÚDO</td>
+
+        </tr>
+
+    </table>
+    <br>
+    <h3> Formulário de Acesso para os nossos cursos</h3>
+    <br>
+    <form id="formulário_contato" method="POST">
+        <fieldset>
+            <label>Nome:</label><input type="text" name="nome" required><br><br>
+            <label>Email:</label><input type="email" name="email" required><br><br>
+            <label>Senha:</label><input type="password" name="senha" required> <br><br>
+            <label>Genero:</label>
+            <input type="radio" name="opcao" value="Masculino" /> Masculino
+            <input type="radio" name="opcao" value="Feminino" /> Feminino
+            <input type="radio" name="opcao" value="Não informado" /> Não informado <br><br>
+            <label>Data que deseja fazer o curso</label><input type="date" name="date"><br><br>
+            <label>Informe o periodo que deseja fazer o curso </label>
+            <input type="checkbox"  name="OPCAO" value="manhã"> Manhã
+            <input type="checkbox"  name="OPCAO" value="tarde"> Tarde
+            <input type="checkbox"  name="OPCAO" value="noite"> Noite<br><br>
+            <label>Escolha o seu curso Desejado:</label>
+            <select>
+                <option value=""></option>
+                <option value="XML">XML</option>
+                <option value="HTML5">HTML5</option>
+                <option value="CSS">CSS</option>
+                <option value="JS">JS</option>
+            </select><br><br>
+            <label>Mensagem</label><br>
+            <textarea cols="40" rows="4" name="mensagem"> Você pode digitar até 200 palavras </textarea><br><br>
+            <input type="submit" values="Enviar">
+            <label>Anexar um comprovante de residência:</label><input type="file" name="arquivo"><br><br>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
